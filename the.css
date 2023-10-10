@@ -1,0 +1,36 @@
+::-webkit-resizer {
+    background: red;
+    border-top-left-radius: 100%;
+    cursor: grab;
+}
+
+#n_o_l_r {
+    -webkit-appearance: none;
+    width: 170px;
+    height: 10px;
+    background: rgb(42, 42, 42) !important;
+    accent-color: rgb(108, 42, 42);
+    right: '4px' !important;
+    bottom: '4px' !important;
+    /* transform: ro; */
+    transition: 200ms;
+}
+
+#n_o_l_r:hover {
+    scale: 1.2;
+    bottom: 10px !important;
+    right: 20px !important;
+    accent-color: red;
+    background: rgb(128, 53, 53) !important;
+}
+#n_o_l_r::-webkit-slider-runnable-track {
+    opacity: 0.5;
+    border-radius: 999px;
+}
+#n_o_l_r::-webkit-slider-runnable-track:hover {
+    opacity: 1;
+}
+
+.no_light {
+    display: none;
+}

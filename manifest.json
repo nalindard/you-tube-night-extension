@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Fix YouTube",
+    "description": "YouTube Dim Mod & Fixed Scrollbar 😊!",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "css": ["the.css","bar.css"],
+        "js": ["script.js"]
+      }
+    ],
+    "permissions": ["activeTab", "storage"],
+    "action":{
+      "default_popup": "popup.html",
+      "default_title": "Night Light YouTube Extension"
+    }
+  }
+  
